@@ -3671,7 +3671,7 @@ body.theme-dark .dropdown-toggle:empty:after {
 
 body.theme-dark .dropdown-menu {
     --bs-dropdown-zindex: 1000;
-    --bs-dropdown-min-width: 15rem;
+    --bs-dropdown-min-width: 5rem;
     --bs-dropdown-padding-x: 0;
     --bs-dropdown-padding-y: 0.5rem;
     --bs-dropdown-spacer: 0.125rem;
@@ -8541,11 +8541,11 @@ body.theme-dark #sidebar:not(.active)~#main {
 
 body.theme-dark .sidebar-wrapper {
     background-color: #1e1e2d;
-    bottom: 0;
+    /* bottom: 0; */
     height: 100vh;
     overflow-y: auto;
     position: fixed;
-    top: 0;
+    /* top: 0; */
     transition: left .5s ease-out;
     width: 250px;
     z-index: 10

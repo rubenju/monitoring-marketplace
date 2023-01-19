@@ -35,7 +35,7 @@
               <div class="card-body">
                 <div class="collapse show" id="collapseExample">
                   <div class="row justify-content-center">
-                    <div class="col-md-7 col-12">
+                    <div class="col-md-7 col-xxl-5 col-12">
                       <form class="form form-horizontal">
                         <div class="form-body">
                             <div class="row">
@@ -117,7 +117,6 @@
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>

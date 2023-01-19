@@ -19,6 +19,18 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/login', function () {
+    return view('auth.login2', [
+        'title' => 'Login'
+    ]);
+});
+
+Route::get('/login3', function () {
+    return view('auth.login3', [
+        'title' => 'Login'
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard', [
         'title' => 'Dashboard'

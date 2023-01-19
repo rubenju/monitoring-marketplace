@@ -20,12 +20,19 @@
 
     <link rel="stylesheet" href="/assets/css/shared/iconly.css" />
     @stack('content-style')
+    <style>
+      nav {
+        background: rgb(0,108,255);
+        background: radial-gradient(circle, rgba(0,108,255,1) 0%, rgba(55,109,195,1) 50%, rgba(50,74,178,1) 100%);
+      }
+    </style>
   </head>
 
   <body>
     {{-- <script src="/assets/js/initTheme.js"></script> --}}
 
     <div id="app">
+      @include('layout.topbar')
       @include('layout.sidebar')
       @yield('content')
     </div>

@@ -35,7 +35,7 @@
               <div class="card-body" id=form-card-body>
                 <div class="collapse show" id="collapseExample">
                   <div class="row justify-content-center">
-                    <div class="col-md-7 col-12">
+                    <div class="col-md-8 col-xxl-5 col-12">
                       <form class="form form-horizontal">
                         <div class="form-body">
                             <div class="row">
@@ -254,7 +254,7 @@
                         </div>
                         <div class="row text-center mb-2">
                           <div class="d-grid d-md-block">
-                            <button class="btn btn-outline-secondary" type="button" id="detailOrderBtn">* Klik untuk informasi lebih lanjut</button>
+                            <button class="btn btn-outline-primary" type="button" id="detailOrderBtn">* Klik untuk informasi lebih lanjut</button>
                           </div>
                         </div>
                         <div id="chart-pesanan-2"></div>
@@ -1212,6 +1212,12 @@
         e.preventDefault();
         $('#order-info').hide();
         $('#order-tables').show();
+        $('#page-3').remove();
+        $('#page-2').remove();
+        $('#page-1').addClass('active');
+        $('#tabel3').hide();
+        $('#tabel2').hide();
+        $('#tabel1').show();
       });
 
       $('#table-order-1').on('click', 'tbody tr td:not(:last-child)', function () {
