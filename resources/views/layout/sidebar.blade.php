@@ -44,7 +44,7 @@
             </div>
             <ul class="menu">
                 <li class="sidebar-title">Menu</li>
-
+                <hr>
                 <li class="sidebar-item {{ request()->is('dashboard') ? 'active' : '' }}">
                     <a href="/dashboard" class="sidebar-link">
                         <i class="bi bi-pie-chart"></i>

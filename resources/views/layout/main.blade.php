@@ -9,21 +9,23 @@
     <link rel="stylesheet" href="/assets/css/main/app-dark.css" />
     <link
       rel="shortcut icon"
-      href="/assets/images/ipos.png"
+      href="/assets/images/icon-tab.svg"
       type="image/x-icon"
     />
     <link
       rel="shortcut icon"
-      href="/assets/images/ipos.png"
+      href="/assets/images/icon-tab.svg"
       type="image/png"
     />
 
     <link rel="stylesheet" href="/assets/css/shared/iconly.css" />
     @stack('content-style')
     <style>
-      nav {
+      #main-nav{
         background: rgb(0,108,255);
         background: radial-gradient(circle, rgba(0,108,255,1) 0%, rgba(55,109,195,1) 50%, rgba(50,74,178,1) 100%);
+        /* background: #3a7fd5;
+        background: linear-gradient(to right, #3a7fd5, #6ebce2); */
       }
     </style>
   </head>

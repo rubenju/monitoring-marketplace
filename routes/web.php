@@ -25,12 +25,6 @@ Route::get('/login', function () {
     ]);
 });
 
-Route::get('/login3', function () {
-    return view('auth.login3', [
-        'title' => 'Login'
-    ]);
-});
-
 Route::get('/dashboard', function () {
     return view('dashboard', [
         'title' => 'Dashboard'
@@ -44,5 +38,11 @@ Route::get('/datatable', function () {
 Route::get('/trace', function () {
     return view('trace', [
         'title' => 'Tools Lacak'
+    ]);
+});
+
+Route::get('/rekon', function () {
+    return view('rekon', [
+        'title' => 'Rekon'
     ]);
 });

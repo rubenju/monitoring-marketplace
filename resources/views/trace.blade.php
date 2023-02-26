@@ -5,8 +5,8 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
 @endpush
 <div id="main">
-  <header class="mb-3">
-    <a href="#" class="burger-btn d-block d-xl-none">
+  <header class="mb-sm-3 mb-lg-0">
+    <a href="#" class="burger-btn d-block d-xl-none ">
       <i class="bi bi-justify fs-3"></i>
     </a>
   </header>
@@ -14,7 +14,7 @@
   <div class="page-heading">
     <h3>Tools Lacak Marketplace</h3>
   </div>
-  <div class="page-content" style="flex-grow: 1">
+  <div class="page-content">
     <section class="row">
       <div class="col-12">
         <div class="row">
